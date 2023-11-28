@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* header section */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+.amaz_logo{
+    background-image: url("https://publishingperspectives.com/wp-content/uploads/2016/02/Amazon-Logo-featured.jpg");
+    height: 56px;
+    width: 100px;
+    background-size: contain;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1.7px solid white;
+}
+.address{
+    height: 45px;
+    width: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.one{
+    display: flex;
+    padding-top: 3px;
+    
+}
+.search_bar{
+    height: 25px;
+    display: flex;
+    width: 800px;
+    padding-top: 20px;
+    margin-top: 2px;
+
+}
+.flag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: 57px;
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+.sign_in{
+    height: 35px;
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.orders{
+    height: 35px;
+    padding-top: 20px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cart{
+    display: flex;
+    width: 40x;
+    padding-top: 25px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.navbar2{
+    display: flex;
+    color: whitesmoke;
+    height: 30px;
+    background-color: #192f2f;
+}
+.all{
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    margin-left: 20px;
+}
+.list{
+    justify-content: space-between;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.two{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+}
+/* hero section */
+.hero_sect{
+    height: 500px;
+    background-image: url("hero_img1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+.three{
+    height: 30px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.shop_sec{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e2;
+}
+.box{
+    height: 400px;
+    width: 100px;
+    /* border: 1px solid black; */
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.box>h2{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 8%;
+}
+.box>a{
+    margin-left: 10px;
+}
+.img{
+    height: 75%;
+    background-size: cover;
+    margin-top: 7px;
+}
+.subimg{
+    height: 75%;
+    margin-top: 7px;
+    display: flex;
+    flex-wrap: wrap
+}
+.game{
+    height: 35%;
+    width: 50%;
+    background-size: cover;
+}
+.a_logo{
+    height:20%;
+    width: 24%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    
+}
+.form{
+margin-left: 70px;
+}
+
+/* footer section */
+.foot_panel1{
+    background-color: #37475a;
+    height: 50px;
+    margin-top: 340px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot_panel2{
+    background-color: #222f3d;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    height: 300px;
+    
+}
+ul p{
+   margin-top: 7px;
+   color: #dddddd;
+
+}
+.foot_panel3{
+    background-color: #222f3d;
+    color: white;
+    display: block;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.foot_panel3 a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.foot_panel3 a:hover{
+    border-bottom: 1.5px solid whitesmoke;
+    padding-left: 5px;
+}
+.foot_panel3 p{
+    margin-left: 550px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
